@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
 
-# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
+# Running Windows on the SAMSUNG GALAXY A90 5G SM-A908N
 
 ## Partitioning your device
 
