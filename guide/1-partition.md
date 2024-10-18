@@ -13,6 +13,10 @@
 
 - [Stock Recovery](https://github.com/galaxysollector/woa-r3q/releases/download/Recovery/stockrecovery.img)
 
+- [Parted](https://github.com/galaxysollector/woa-r3q/releases/download/Files/parted)
+
+- [Mass Storage Mode](https://github.com/galaxysollector/woa-r3q/releases/download/Files/msc.sh)
+
 
 ### Notes
 > [!WARNING]  
