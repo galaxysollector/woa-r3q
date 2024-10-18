@@ -9,7 +9,9 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
   
-- [Modded TWRP](https://github.com/galaxysollector/woa-r3q/releases/tag/Recovery)
+- [TWRP](https://github.com/galaxysollector/woa-r3q/releases/tag/Recovery/twrp.img)
+
+- [Stock Recovery](https://github.com/galaxysollector/woa-r3q/releases/tag/Recovery/stockrecovery.img)
 
 
 ### Notes
