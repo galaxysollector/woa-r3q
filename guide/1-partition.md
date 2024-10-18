@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/r3q.png" width="350" alt="Windows 11 running on r3q">
+<img align="right" src="https://github.com/galaxysollector/woa-r3q/blob/main/r3q.png" width="350" alt="Windows 11 running on r3q">
 
 # Running Windows on the SAMSUNG GALAXY A90 5G SM-A908N
 
