@@ -9,7 +9,7 @@
 
 - [Gdisk](https://github.com/galaxysollector/woa-r3q/releases/tag/Gdisk)
 
-- [Modded TWRP](https://github.com/galaxysollector/woa-r3q/releases/tag/Recovery) (should already be installed)
+- [Modded TWRP](https://github.com/galaxysollector/woa-r3q/releases/download/Recovery/twrp.img) (should already be installed)
 
 ### Reboot to TWRP
 > Disable MTP in TWRP
