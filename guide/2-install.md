@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
 
-# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
+# Running Windows on the SAMSUNG GALAXY A90 5G SM-A908N
 
 ## Installation
 
@@ -16,7 +16,7 @@
 
 #### Entering mass storage mode
 ```cmd
-adb shell msc.sh
+adb push msc.sh /sbin && adb shell "chmod +x /sbin/msc.sh" && adb shell /sbin/msc.sh
 ```
 
 ### Windows Disk Management
@@ -86,7 +86,7 @@ sel par $
 
 #### Formatting ESP drive
 ```cmd
-format quick fs=fat32 label="ESPWINNERX"
+format quick fs=fat32 label="ESPR3Q"
 ```
 
 #### Add letter to ESP
@@ -102,7 +102,7 @@ sel par $
 
 #### Formatting Windows drive
 ```cmd
-format quick fs=ntfs label="WINWINNERX"
+format quick fs=ntfs label="WINR3Q"
 ```
 
 #### Add letter to Windows
