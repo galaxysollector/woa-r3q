@@ -11,7 +11,7 @@
 
 - [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
 
-- [Switch To Android package](https://github.com/galaxysollector/woa-r3q/releases/download/Files/winnerx-sta.zip)
+- [Switch To Android package](https://github.com/galaxysollector/woa-r3q/releases/download/Files/r3q-sta.zip)
 
 ## Dualboot guide
 This guide assumes you are rooted, if you aren't, please do that first.
