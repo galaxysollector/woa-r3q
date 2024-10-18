@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
+<img align="right" src="https://github.com/galaxysollector/woa-r3q/blob/main/r3q.png" width="350" alt="Windows 11 running on r3q">
 
-# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
+# Running Windows on the SAMSUNG GALAXY A90 5G SM-A908N
 
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
@@ -12,7 +12,7 @@
 
 #### Entering mass storage mode
 ```cmd
-adb shell msc.sh
+adb push msc.sh /sbin && adb shell "chmod +x /sbin/msc.sh" && adb shell /sbin/msc.sh
 ```
 
 ### Diskpart
@@ -21,7 +21,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINWINNERX**
+> Use `list volume` to find it, replace "$" with the actual number of **WINR3Q**
 ```diskpart
 select volume $
 ```
@@ -37,7 +37,7 @@ exit
 ```
 
 #### Formatting Windows
-> Go to Windows Explorer > This PC and select **WINWINNERX**. Right click and format as NTFS.
+> Go to Windows Explorer > This PC and select **WINR3Q**. Right click and format as NTFS.
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
