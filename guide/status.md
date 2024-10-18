@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
+<img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/r3q.png" width="350" alt="Windows 11 running on r3q">
 
-# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
+# Running Windows on the SAMSUNG GALAXY A90 5G SM-A908N
 
 ## Project status
 Alpha, Windows 11 boot but without USB, the next thing is to try to make the USB work
