@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
+<img align="right" src="https://github.com/galaxysollector/woa-r3q/blob/main/r3q.png" width="350" alt="Windows 11 running on r3q">
 
 # Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
 
@@ -47,18 +47,6 @@ Follow the instructions by Massgravel [here](https://github.com/massgravel/Micro
 - ```adb shell```
 
 - ```sed -i s/dual,wireless,dexforpc/dual,standalone,wireless,dexforpc/g /vendor/etc/floating_feature.xml && sed -i s/dual,wireless,dexforpc/dual,standalone,wireless,dexforpc/g /system_root/system/etc/floating_feature.xml```
-
-#### Finished!
-
-
-### Install Galaxy Z Fold2 5G Wallpapers
-- [wallpaper-res.apk](https://github.com/galaxysollector/woa-winnerx/releases/download/Files/wallpaper-res.apk)
-
-- Boot to recovery
-
-- Go to TWRP settings and mount System
-
-- ```adb push path\to\wallpaper-res.apk /system/priv-app/wallpaper-res```
 
 #### Finished!
 
