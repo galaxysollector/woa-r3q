@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
+<img align="right" src="https://github.com/galaxysollector/woa-r3q/blob/main/r3q.png" width="350" alt="Windows 11 running on r3q">
 
-# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
+# Running Windows on the SAMSUNG GALAXY A90 5G SM-A908N
 
 ## Uninstalling Windows
 
@@ -36,7 +36,7 @@ rm $
 
 #### Recreating the userdata partition
 ```cmd
-mkpart userdata ext4 11.7GB 512GB
+mkpart userdata ext4 9304MB 128GB
 ```
 
 #### Exit parted
@@ -45,8 +45,9 @@ quit
 ```
 
 #### Format data
-Reboot to recovery, go to the Wipe menu and press Format Data, 
+Flash stock recovery, reboot recovery, go to the Wipe menu and press Format Data,
 then type `yes`.
+Reboot to download, flash twrp, boot recovery.
 
 ### Check if Android still starts
 Restart the phone, and see if Android still works
