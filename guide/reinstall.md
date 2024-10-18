@@ -5,7 +5,7 @@
 ### Prerequisites
 - [Windows on ARM image](https://worproject.com/esd)
   
-- [Modded TWRP](https://github.com/galaxysollector/woa-winnerx/releases/tag/Recovery) (should already be installed)
+- [Modded TWRP](https://github.com/galaxysollector/woa-r3q/releases/tag/Recovery) (should already be installed)
 
 ### Reboot to TWRP
 > Disable MTP in TWRP
