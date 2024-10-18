@@ -1,6 +1,6 @@
 <img align="right" src="https://github.com/galaxysollector/woa-winnerx/blob/main/winnerx.png" width="350" alt="Windows 11 running on winnerx">
 
-# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-F907N
+# Running Windows on the SAMSUNG GALAXY FOLD 5G SM-A908N
 
 ## Dualboot guide
 
@@ -18,7 +18,7 @@ This guide assumes you are rooted, if you aren't, please do that first.
 
 ### Setup - Android
 - Download and install the **WOA Helper** app, then open it and grant it root access.
-- Open the settings inside the app and uncheck `Back up boot.img if none is detected (Windows)` (this feature does not work on the Galaxy Fold 5G due to no mount support).
+- Open the settings inside the app and uncheck `Back up boot.img if none is detected (Windows)` (this feature does not work on the Galaxy A90 5G due to no mount support).
 - Download the **UEFI** image and place it inside the folder named `UEFI` in your internal storage.
 - Press the `BACK UP BOOT IMAGE` button, then select `Android`.
 - Create a folder called `sta` in your internal storage and unpack the two files from `winnerx-sta.zip` file here.
