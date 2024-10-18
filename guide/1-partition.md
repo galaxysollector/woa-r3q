@@ -30,7 +30,7 @@ Go to TWRP > Mount > and unmount all partitions
 
 #### Running parted
 ```cmd
-adb shell /sbin/parted /dev/block/sda
+adb push parted /sbin && adb shell "chmod +x /sbin/parted" && adb shell /sbin/parted /dev/block/sda
 ```
 
 #### Printing the current partition table
@@ -40,41 +40,41 @@ print
 ```
 
 #### Removing userdata
-> Replace **$** with the number of the **userdata** partition, which should be **34**
+> Replace **$** with the number of the **userdata** partition, which should be **33**
 ```cmd
 rm $
 ```
 
 #### Creating ESP partition
 ```cmd
-mkpart esp fat32 11.7GB 12GB
+mkpart esp fat32 9304MB 10GB
 ```
 
 #### Creating Windows partition
-> Replace **312GB** with the value you want to be allocated to Windows
+> Replace **74GB** with the value you want to be allocated to Windows
 ```cmd
-mkpart win ntfs 12GB 312GB
+mkpart win ntfs 10GB 74GB
 ```
 
 #### Creating WinPE partition
 > [!Note]
 > This is optional
 
-> Replace **312GB** with the end value of Windows
+> Replace **74GB** with the end value of Windows
 >
-> Replace **325GB** with the end value you want WinPE to have
+> Replace **87GB** with the end value you want WinPE to have
 ```cmd
-mkpart pe fat32 312GB 325GB
+mkpart pe fat32 74GB 87GB
 ```
 
 #### Recreating userdata
-> Replace **312GB** with the end value of the Windows or WinPE partition you created above
+> Replace **74GB** with the end value of the Windows or WinPE partition you created above
 ```cmd
-mkpart userdata ext4 312GB 512GB
+mkpart userdata ext4 74GB 128GB
 ```
 
 #### Make ESP bootable
-> Replace **$** with the number of the **ESP** partition, which should be **34**
+> Replace **$** with the number of the **ESP** partition, which should be **33**
 ```cmd
 set $ esp on
 ```
@@ -85,8 +85,9 @@ quit
 ```
 
 #### Format data
-Reboot to recovery, go to the Wipe menu and press Format Data, 
+Flash stock recovery, reboot recovery, go to the Wipe menu and press Format Data,
 then type `yes`.
+Reboot to download, flash twrp, boot recovery.
 
 ### Check if Android still starts
 Restart the phone, and see if Android still works
