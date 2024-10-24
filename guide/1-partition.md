@@ -28,8 +28,8 @@
 >
 > YOU CAN BREAK YOUR DEVICE WITH THE COMMANDS BELOW IF YOU DO THEM WRONG!!!
 
-### Flash the modded TWRP
-> If you have the official TWRP installed, flash it through there. Otherwise use Odin.
+### Flash TWRP
+> It is recommended to use Odin.
 
 #### Unmount all partitions
 Go to TWRP > Mount > and unmount all partitions
